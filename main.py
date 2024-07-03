@@ -2,8 +2,6 @@ from get_payments import get_venmo_payment_details
 from export_to_csv import export_to_csv
 from upload import upload_CSV
 
-# how to ignore emails from venmo that are not about transactions ??
-
 USING_GOOGLE_SHEET = True # set to false if you just want a csv file
 
 def main():
